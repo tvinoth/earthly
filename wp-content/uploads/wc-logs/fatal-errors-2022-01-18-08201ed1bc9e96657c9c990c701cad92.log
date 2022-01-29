@@ -1,0 +1,16 @@
+2022-01-18T00:59:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Init.php on line 10
+
+2022-01-18T00:59:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\widget-notice.php on line 3
+
+2022-01-18T00:59:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\Requests\IDNAEncoder.php on line 13
+
+2022-01-18T06:14:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php on line 13
+
+2022-01-18T06:14:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\Requests\Transport\cURL.php on line 165
+
+2022-01-18T06:14:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\comment.php on line 26
+
+2022-01-18T06:14:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\misc.php on line 16
+
+2022-01-18T13:59:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\widget-notice.php on line 3
+

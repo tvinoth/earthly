@@ -1,0 +1,16 @@
+2022-01-02T02:10:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AllReviews.php on line 7
+
+2022-01-02T15:50:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\testimonial\testimonial-handler.php on line 5
+
+2022-01-02T15:50:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\piechart\piechart-handler.php on line 5
+
+2022-01-02T15:51:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\blocks.php on line 198
+
+2022-01-02T15:51:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\blocks.php on line 198
+
+2022-01-02T15:51:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php on line 15
+
+2022-01-02T15:51:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\privacy-tools.php on line 18
+
+2022-01-02T15:51:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\privacy-tools.php on line 18
+

@@ -1,0 +1,4 @@
+2022-01-08T06:43:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\screen.php on line 17
+
+2022-01-08T06:43:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\controls\deprecated-notice.php on line 4
+

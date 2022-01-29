@@ -1,0 +1,22 @@
+2022-01-22T07:41:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\header-footer-elementor\inc\lib\target-rule\class-astra-target-rules-fields.php on line 13
+
+2022-01-22T07:42:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2056
+
+2022-01-22T07:42:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-22T07:42:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-22T07:42:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-22T07:42:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-22T08:38:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_curvy.php on line 916 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_curvy.php(916): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\Woolentor_Product_Curvy_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(725): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php( in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-22T17:20:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\autoloader.php on line 53
+

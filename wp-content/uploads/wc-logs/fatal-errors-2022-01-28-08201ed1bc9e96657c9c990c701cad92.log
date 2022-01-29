@@ -1,0 +1,82 @@
+2022-01-28T01:26:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\header-footer-elementor\inc\class-hfe-update.php on line 12
+
+2022-01-28T01:27:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\countdown-timer\countdown-timer.php on line 7
+
+2022-01-28T01:27:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\modules\controls\widget-area-utils.php on line 4
+
+2022-01-28T01:28:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-28T01:28:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-28T02:58:55+00:00 CRITICAL Object of class stdClass could not be converted to string in C:\xampp\htdocs\earthly\wp-content\plugins\user-registration\templates\form-registration.php on line 103
+
+2022-01-28T04:45:11+00:00 CRITICAL syntax error, unexpected ''._field'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\xampp\htdocs\earthly\wp-content\plugins\user-registration\templates\form-registration.php on line 110
+
+2022-01-28T14:53:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets. in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T14:54:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(648): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(202 in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T14:56:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(648): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(202 in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T15:49:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(648): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(202 in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T15:49:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(648): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(202 in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T15:50:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\eleme in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T15:50:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\eleme in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T15:50:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Elementor\woolentor_render_icon(), 3 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 789 and exactly 5 expected in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:60
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php(789): Elementor\woolentor_render_icon(Array, 'button_icon', 'buttonicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Woolentor_Product_Accordion_Layout_Widget->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\eleme in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 60
+
+2022-01-28T18:56:23+00:00 CRITICAL syntax error, unexpected '"', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\earthly\wp-content\plugins\insert-php-code-snippet\shortcode-handler.php(97) : eval()'d code on line 5
+
+2022-01-28T19:03:59+00:00 CRITICAL syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\earthly\wp-content\plugins\insert-php-code-snippet\shortcode-handler.php(97) : eval()'d code on line 4
+

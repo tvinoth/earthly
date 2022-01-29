@@ -1,0 +1,272 @@
+2022-01-20T03:16:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\class-wp-site-health.php on line 10
+
+2022-01-20T03:41:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\ReportsSync.php on line 8
+
+2022-01-20T03:43:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\happy-elementor-addons\classes\extensions-manager.php on line 173
+
+2022-01-20T03:43:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-20T03:46:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\widgets\counter.php on line 4
+
+2022-01-20T07:53:54+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:54:14+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:54:30+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:54:35+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:54:56+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(648): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(202): Elementor\Widget_Base->render_plain_content()
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(208): Elementor\DB->render_element_plain_content(Array)
+#6 C:\xampp\htdo in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:55:07+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:55:07+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:55:14+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:55:17+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:55:18+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:56:36+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:56:36+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:56:59+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(725): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(741): Elementor\Element_Base->print_element()
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:58:28+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T07:58:34+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(725): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(741): Elementor\Element_Base->print_element()
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T08:22:13+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T08:23:50+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T08:55:30+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(725): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(741): Elementor\Element_Base->print_element()
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T08:55:40+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T08:57:12+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(890): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T09:02:36+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(890): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T09:05:42+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+
+2022-01-20T09:10:53+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:81
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 81
+
+2022-01-20T10:01:05+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:81
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6  in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 81
+
+2022-01-20T10:01:32+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:81
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(648): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(202): Elementor\Widget_Base->render_plain_content()
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\db.php(208): Elementor\DB->render_element_plain_content(Array)
+#6 C:\xampp\htdo in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 81
+
+2022-01-20T10:01:42+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:81
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 81
+
+2022-01-20T10:02:32+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:81
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(tru in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 81
+
+2022-01-20T10:58:43+00:00 CRITICAL Uncaught Error: Class 'Elementor\Elementor\Core\Files\Assets\Svg\Svg_Handler' not found in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php:80
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\wl_faq.php(889): Elementor\woolentor_render_icon(Array, 'open_icon', 'openicon', Array, 'open')
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\WL_Faq_Element->render()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->g in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.icon-manager.php on line 80
+

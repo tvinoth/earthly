@@ -1,0 +1,8 @@
+2022-01-16T02:30:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\class-wp-internal-pointers.php on line 15
+
+2022-01-16T02:31:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\yith-woocommerce-compare\includes\class.yith-woocompare-helper.php on line 12
+
+2022-01-16T02:31:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\autoloader.php on line 285
+
+2022-01-16T02:32:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2056
+

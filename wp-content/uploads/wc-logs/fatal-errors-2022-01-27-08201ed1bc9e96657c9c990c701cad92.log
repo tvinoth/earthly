@@ -1,0 +1,108 @@
+2022-01-27T01:48:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\accordion\accordion.php on line 7
+
+2022-01-27T01:48:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\client-logo\client-logo.php on line 7
+
+2022-01-27T01:48:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementskit-lite\widgets\team\team.php on line 7
+
+2022-01-27T01:48:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce-services\classes\class-wc-connect-api-client-live.php on line 4
+
+2022-01-27T03:26:44+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php:1670
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\Woolentor_Product_Tabs_Widget->render()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xam in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php on line 1670
+
+2022-01-27T03:26:55+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php:1670
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\Woolentor_Product_Tabs_Widget->render()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xam in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php on line 1670
+
+2022-01-27T03:27:01+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php:1670
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\controls-stack.php(2172): Elementor\Woolentor_Product_Tabs_Widget->render()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xam in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php on line 1670
+
+2022-01-27T14:29:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\Requests\Transport\cURL.php on line 165
+
+2022-01-27T15:04:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:04:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:05:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:06:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:06:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-27T15:06:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:06:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:06:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:06:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\Requests\Transport\cURL.php on line 165
+
+2022-01-27T15:06:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-27T15:06:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:06:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-27T15:06:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\ap-custom-testimonial\ap-custom-testimonial.php on line 105
+
+2022-01-27T15:06:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T15:07:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2162
+
+2022-01-27T18:16:26+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_url() in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php:61
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#4 C:\xampp\htdocs\earthly\wp-includes\shortcodes.php(356): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xampp\htdocs\earthly\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#7 C:\x in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php on line 61
+
+2022-01-27T18:16:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php on line 61 and at least 1 expected in C:\xampp\htdocs\earthly\wp-includes\formatting.php:4350
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php(61): esc_url()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\xampp\htdocs\earthly\wp-includes\shortcodes.php(356): WC_Shortcodes::my_acco in C:\xampp\htdocs\earthly\wp-includes\formatting.php on line 4350
+
+2022-01-27T18:17:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php on line 61 and at least 1 expected in C:\xampp\htdocs\earthly\wp-includes\formatting.php:4350
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php(61): esc_url()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\xampp\htdocs\earthly\wp-includes\shortcodes.php(356): WC_Shortcodes::my_acco in C:\xampp\htdocs\earthly\wp-includes\formatting.php on line 4350
+
+2022-01-27T18:20:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php on line 61 and at least 1 expected in C:\xampp\htdocs\earthly\wp-includes\formatting.php:4350
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\templates\myaccount\form-login.php(61): esc_url()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\xampp\htdocs\earthly\wp-includes\shortcodes.php(356): WC_Shortcodes::my_acco in C:\xampp\htdocs\earthly\wp-includes\formatting.php on line 4350
+

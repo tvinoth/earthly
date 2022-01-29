@@ -1,0 +1,11 @@
+2022-01-01T13:56:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\template-library\sources\remote.php on line 7
+
+2022-01-01T19:41:09+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\template-library\manager.php:457
+Stack trace:
+#0 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\template-library\manager.php(550): call_user_func(Array, Array)
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\template-library\manager.php(582): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#3 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\earthly\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_re in C:\xampp\htdocs\earthly\wp-content\plugins\elementor\includes\template-library\manager.php on line 457
+

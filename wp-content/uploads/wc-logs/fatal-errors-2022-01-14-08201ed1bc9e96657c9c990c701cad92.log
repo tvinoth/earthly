@@ -1,0 +1,6 @@
+2022-01-14T14:52:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\wpforms-lite\vendor\woocommerce\action-scheduler\action-scheduler.php on line 28
+
+2022-01-14T14:55:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\file.php on line 1558
+
+2022-01-14T16:15:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2056
+

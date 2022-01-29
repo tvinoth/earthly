@@ -1,0 +1,4 @@
+2022-01-11T00:55:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\FeaturedCategory.php on line 7
+
+2022-01-11T09:57:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\vendor\automattic\jetpack-constants\src\class-constants.php on line 25
+

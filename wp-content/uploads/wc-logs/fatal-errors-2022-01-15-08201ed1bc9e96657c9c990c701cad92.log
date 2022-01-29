@@ -1,0 +1,8 @@
+2022-01-15T02:54:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\wpforms-lite\src\Admin\Notice.php on line 42
+
+2022-01-15T02:54:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\woolentor-blocks\vendor\composer\ClassLoader.php on line 418
+
+2022-01-15T02:54:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\wpforms-lite\src\Admin\Addons\Addons.php on line 10
+
+2022-01-15T02:56:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-includes\wp-db.php on line 2056
+
