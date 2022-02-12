@@ -5119,45 +5119,101 @@ border-radius: 150px;
 }
 
 .xoo-wsc-header {
-	color: white;
-    background-color: #217e53;
+	color: white !important;
+    background-color: #217e53 !important;
 }
 
 .xoo-wsc-ft-buttons-cont{
-    width: 90%;
-    margin: 0px 0px 0px 20px;
-    background-color: #079D4A;
-    border-radius: 20px;
+    width: 90% !important;
+    margin: 0px 0px 0px 20px !important;
+    background-color: #079D4A !important;
+    border-radius: 20px !important;
 }
 
 a.xoo-wsc-ft-btn-checkout{
-	color: white;
-    font-family: 'Rubik';
-    font-size: 16px;
-    font-weight: 400;
-	text-transform: none;
+	color: white !important;
+    font-family: 'Rubik' !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+	text-transform: none !important;
 }
     
 .xoo-wsch-top{
-	float:left;	
+	float:left !important;	
 }
 .xoo-wsch-text{
-    font-family: 'Fahkwang';
-    font-family: 600;
+    font-family: 'Fahkwang' !important;
+    font-family: 600 !important;
 }
 
 .xoo-wsc-product{
-	border-bottom:0px solid;
+	border-bottom:0px solid !important;
 }
 
 span.xoo-wsc-pname, span.xoo-wsc-pname a {
-    font-size: 14px;
-    font-family: 'Rubik';
-    font-weight: 400;
+    font-size: 14px !important;
+    font-family: 'Rubik' !important;
+    font-weight: 400 !important;
 }
 
 .earthlyvibesBtn{
 	border-radius:20px !important;
     text-transform: capitalize !important;
-	font-family:'Rubik';
+	font-family:'Rubik' !important;
+}
+
+/*-- popup side cart */
+.sidecartaddtocartBtn button.single_add_to_cart_button{
+	width:100% !important;
+}
+
+.sidecartaddtocartBtn button.minus{
+	border-radius: 20px !important;
+    height: 28px !important;
+    width: 28px !important;
+    border: 0.5px solid #000000 !important;
+    background-color: transparent !important;
+    box-sizing: border-box !important;
+	margin: 0px 0px 0px 100px !important;
+}
+
+.sidecartaddtocartBtn .quantity.wqpmb_quantity {
+    display: contents !important;
+}
+
+.sidecartaddtocartBtn input.input-text.qty.text{
+    padding: 6px 0px 8px !important;
+}
+
+.sidecartaddtocartBtn button.plus{
+	margin: 0px 0px 0px 0px !important;
+    height: 28px !important;
+    width: 28px !important;
+	border-radius: 20px !important;
+    border: 0.5px solid #000000 !important;
+    background-color: transparent !important;
+    box-sizing: border-box !important;
+}
+
+.sidecartaddtocartBtn div.qib-button-wrapper{
+    padding: 0px 0px 15px 0px !important;
+}
+
+.sidecartaddtocartBtn div.wqpmb_quantity input.qty{
+	width: 25% !important;
+	background-color:transparent;
+    font-size: 22px;
+    -webkit-box-shadow: 0px 0px 0px 0px;
+	border-bottom:0px solid;
+	webkit-box-shadow: 0px 0px 0px 0px;
+    -o-box-shadow:0px 0px 0px 0px;
+}
+
+.sidecartaddtocartBtn label.screen-reader-text{
+    pointer-events: none !important;
+}
+
+.processing {    
+	opacity: 0.1;
+    pointer-events: none;
 }

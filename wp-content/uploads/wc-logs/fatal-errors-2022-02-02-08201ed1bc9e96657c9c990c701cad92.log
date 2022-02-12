@@ -1,0 +1,6 @@
+2022-02-02T10:48:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Products\DataStore.php on line 8
+
+2022-02-02T10:48:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\admin\include\admin_field-manager.php on line 2
+
+2022-02-02T10:48:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\classes\class.product_query.php on line 4
+

@@ -327,9 +327,9 @@ jQuery(document).ready(function($){
 	        if( productID ){
 	        	productData.push({name: 'add-to-cart', value: productID});
 	        }
-
-	        productData.push({name: 'action', value: 'xoo_wsc_add_to_cart'});
-
+			
+			productData.push({name: 'action', value: 'xoo_wsc_add_to_cart'});
+			
 			this.addToCartAjax( $button, productData );//Ajax add to cart
 		}
 
@@ -341,7 +341,9 @@ jQuery(document).ready(function($){
 			$button.addClass('loading');
 
 			// Trigger event.
-			$( document.body ).trigger( 'adding_to_cart', [ $button, productData ] );
+			if(!$(".xoo-wsc-modal").hasClass("xoo-wsc-cart-active")){
+				$( document.body ).trigger( 'adding_to_cart', [ $button, productData ] );
+			}
 
 			$.ajax({
 				url: get_wcurl( 'xoo_wsc_add_to_cart' ),

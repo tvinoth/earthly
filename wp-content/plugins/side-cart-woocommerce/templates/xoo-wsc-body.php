@@ -82,7 +82,8 @@ extract( Xoo_Wsc_Template_Args::cart_body() );
 		}
 
 		$product_name 		= apply_filters( 'woocommerce_cart_item_name', $product_name, $cart_item, $cart_item_key );
-		$product_name 		= $product_permalink && $showPLink ? sprintf( '<a href="%s">%s</a>', $product_permalink, $product_name ) : $product_name;
+		//$product_name 		= $product_permalink && $showPLink ? sprintf( '<a href="%s">%s</a>', $product_permalink, $product_name ) : $product_name;
+		$product_name 		= $product_name;
 
 		$product_meta 		= wc_get_formatted_cart_item_data( $cart_item );
 

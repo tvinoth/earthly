@@ -1,0 +1,6 @@
+2022-02-12T03:41:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\import.php on line 17
+
+2022-02-12T03:42:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-admin\includes\post.php on line 21
+
+2022-02-12T03:45:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\earthly\wp-content\plugins\woolentor-addons\includes\addons\product_accordion.php on line 5
+

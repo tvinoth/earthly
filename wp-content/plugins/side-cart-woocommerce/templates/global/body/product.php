@@ -62,20 +62,53 @@ $productClasses = apply_filters( 'xoo_wsc_product_class', $productClasses );
 				<div class="xoo-wsc-qty-price">
 
 					<?php if( $showPprice && $qtyPriceDisplay === 'one_liner' ): ?>
-						<span><?php echo $cart_item['quantity']; ?></span> X <span><?php echo $product_price; ?></span>
+						<span><?php echo $cart_item['quantity']; ?></span> X <span><?php echo $product_price; ?>
+						
+						</span>
 						<?php if( $showPtotal ): ?>
-							<span> = <?php echo $product_subtotal ?></span>
+							<span> = <?php echo $product_subtotal ?>
+							</span>
 						<?php endif; ?>
 
 					<?php else: ?>
 						<span><?php //_e( 'Qty:', 'side-cart-woocommerce' ) ?></span> <span><?php //echo $cart_item['quantity']; ?></span>
 						<span class="xoo-wsc-smr-ptotal" style="font-size: 14px;
     font-family: 'Rubik';
-    font-weight: 500;"><?php echo $product_subtotal ?></span>
+    font-weight: 500;"><?php echo $product_subtotal ?>
+	
+	</span>
 					<?php endif; ?>
+					
+		<div class="elementor-element elementor-element-2df8363 elementor-button-success elementor-align-center sidecartaddtocartBtn elementor-widget elementor-widget-wc-add-to-cart" style="margin-top: -35px;">
+			<!--<form action="http://localhost/earthly/product/earthly-vibes/" class="sidecart" method="post" enctype="multipart/form-data">-->
+		
+			<div class="qib-button qib-button-wrapper">
+                <button type="button" class="minus qib-button">-</button>
+                <div class="quantity wqpmb_quantity">
+                    <input type="number" style="background-color:white;" class="wqpmb_input_text sidecartqty input-text qty text" step="1" min="1" max="" name="quantity" value="<?php echo $cart_item['quantity'];?>" title="Qty" size="4" placeholder="" inputmode="numeric" readonly="readonly">		                    
+                </div>
+                <span class="wqpmb_plain_input hidden">1</span>
+				<input type="text" name="sidecartopenornot" value="sidecartopenornot" style="display:none"/>
+                <button type="button" class="plus sidecartplus qib-button">+</button>
+				<input type="hidden" name="sidecart_item_key" class="sidecart_item_key" value="<?php echo $cart_item_key;?>"/>
+			</div>
+	
+			<button type="submit" name="add-to-cart" value="16" class="sidecart_add_to_cart_button elementor-button button alt" style="display:none;">
+				<span class="elementor-button-content-wrapper">
+					<span class="elementor-button-text">Add to cart</span>
+				</span>
+			</button>
 
+			<!--</form>-->
+		</div>
+			
+					
 				</div>
+				
+			
 
+			
+			
 			</div>
 
 			<!-- End Quantity -->

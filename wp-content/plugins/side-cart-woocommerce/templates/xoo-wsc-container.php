@@ -58,9 +58,7 @@ extract( Xoo_Wsc_Template_Args::cart_container() );
 		<br>
 		<div class="container" style="text-align: center;">
 			<p style="font-family: 'Rubik';font-weight: 300;">100% purchase protection</p>
-			<p><i class="fa fa-cc-visa" aria-hidden="true"></i>&nbsp;<i class="fa fa-cc-paypal" aria-hidden="true"></i>
-				<i class="fa fa-cc-visa" aria-hidden="true"></i>&nbsp;<i class="fa fa-cc-paypal" aria-hidden="true"></i>
-				<i class="fa fa-cc-visa" aria-hidden="true"></i>
+			<p><img style="height:34px;" src="<?php echo site_url('/wp-content/plugins/side-cart-woocommerce/assets/images/UPI.png'); ?>"></img>
 			</p>
 		</div>
 

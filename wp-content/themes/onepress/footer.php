@@ -43,9 +43,9 @@ if ( ! $hide_footer ) {
 				<div class="row">	
 					<div class="col-md-7">
 						<span style="margin-left:-12%">Contact Us</span>&nbsp;
-						<span style="margin-left:7%"><i class="fas fa-phone-alt"></i>&nbsp;+91 7010990876</span>&nbsp;&nbsp;
-						<span style="margin-left:5%"><i class="far fa-envelope"></i>&nbsp;team@earthlyvibes.co</span>&nbsp;&nbsp;&nbsp;&nbsp;
-						<span><a href="#"><i class="fas fa-globe"></i>&nbsp;www.earthlyvibes.co</a></span>&nbsp;&nbsp;
+						<span style="margin-left:3%"><i class="fas fa-phone-alt"></i>&nbsp;+91 7010990876</span>&nbsp;&nbsp;&nbsp;
+						<span style="margin-left:2%"><i class="far fa-envelope"></i>&nbsp;team@earthlyvibes.co</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span>&nbsp;<a href="#"><i class="fas fa-globe"></i>&nbsp;www.earthlyvibes.co</a></span>&nbsp;&nbsp;
 					</div>
 					<div class="col-md-2">
 					</div>

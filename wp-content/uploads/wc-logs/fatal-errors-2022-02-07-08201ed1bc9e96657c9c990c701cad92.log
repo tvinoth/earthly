@@ -1,0 +1,21 @@
+2022-02-07T10:53:39+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\earthly\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-header.php on line 28
+
+2022-02-07T10:53:47+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\earthly\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-header.php on line 28
+
+2022-02-07T10:53:52+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\earthly\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-header.php on line 28
+
+2022-02-07T10:54:33+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\earthly\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-header.php on line 28
+
+2022-02-07T13:36:03+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1357): WC_Cart->calculate_totals()
+#5 C:\xampp\htdocs\earthly\wp-content\themes\onepress\functions.php(591): WC_Cart->set_quantity('16', 2, true)
+#6 C:\xampp\htdocs\earthly\wp-includes\class-wp-hook.php(307): ajax_qty_cart('')
+ in C:\xampp\htdocs\earthly\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2022-02-07T14:11:37+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\earthly\wp-content\plugins\side-cart-woocommerce\templates\global\body\product.php on line 144
+

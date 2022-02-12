@@ -555,4 +555,3 @@ function bks_save_mobile_field($user_id) {
         add_user_meta($user_id, 'billing_phone', $_POST['mobile']);
     }
 }
-

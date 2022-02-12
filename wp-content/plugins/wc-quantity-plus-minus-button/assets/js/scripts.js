@@ -1,16 +1,16 @@
 jQuery(function ($) {
 
     // Make the code work after page load.
-    $(document).ready(function () {
-        QuantityChange();
+    $(document).ready(function (e) {
+        QuantityChange(e);
     });
 
     // Make the code work after executing AJAX.
-    $(document).ajaxComplete(function () {
-        QuantityChange();
+    $(document).ajaxComplete(function (e) {
+        QuantityChange(e);
     });
 
-    function QuantityChange() {
+    function QuantityChange(e) {
         $(document).off("click", ".qib-button").on("click", ".qib-button", function () {
             // Find quantity input field corresponding to increment button clicked.
             var qty = $(this).siblings(".quantity").find(".input-text");
@@ -81,7 +81,54 @@ jQuery(function ($) {
             qty.val(Math.round(qty.val() * 100) / 100);
             qty.trigger("change");
             $("body").removeClass("sf-input-focused");
-        });
+		//updatecart(qty);
+		$(".xoo-wsc-body,.xoo-wsc-header").addClass('processing');
+        e.preventDefault();
+
+        var $thisbutton = $(".xoo-wsc-body,.xoo-wsc-header"),
+                product_qty = $(".sidecartqty").val(),
+                product_id = 16,
+                variation_id = 0;
+
+        var data = {
+            action: 'woo_wsc_add_to_cart',
+            product_id: product_id,
+            product_sku: '',
+			container:'cart',
+			noticeSection:'cart',
+			isCheckout:true,
+			isCart:false,
+			cart_key:$(".sidecart_item_key").val(),
+			'add-to-cart':product_id,
+            qty: product_qty,
+            variation_id: variation_id,
+        };
+		
+        //$(document.body).trigger('adding_to_cart', [$thisbutton, data]);
+		//console.log(wc_add_to_cart_params.ajax_url);
+        $.ajax({
+            type: 'post',
+			url: "http://localhost/earthly/?wc-ajax=xoo_wsc_update_item_quantity",
+            data: data,
+            beforeSend: function (response) {
+                $thisbutton.removeClass('added').addClass('processing');
+            },
+            complete: function (response) {
+                $thisbutton.addClass('added').removeClass('processing');
+            },
+            success: function (response) {
+
+                if (response.error && response.product_url) {
+                    //return;
+                } else {
+                    $(document.body).trigger('added_to_cart', [response.fragments, response.cart_hash, $thisbutton]);
+                }
+            },
+		});
+
+        return false;
+    });
+	
     }
 
 });

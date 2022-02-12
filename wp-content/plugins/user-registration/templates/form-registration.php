@@ -55,6 +55,16 @@ $custom_class = apply_filters( 'user_registration_form_custom_class', $custom_cl
 do_action( 'user_registration_before_registration_form', $form_id );
 
 ?>
+<style>
+
+.form-control::-webkit-input-placeholder { color: #757787 !important; }
+
+.form-control::-moz-placeholder           { color: #757787 !important; }
+ 
+.form-control::-moz-placeholder          { color: #757787 !important; }
+ 
+.form-control::-ms-input-placeholder      { color: #757787 !important; } 
+</style>
 <div class="container-fluid">
 <br>
 <br>
@@ -147,9 +157,9 @@ do_action( 'user_registration_before_registration_form', $form_id );
 														<!--<label for="first_name" class="ur-label">First Name <abbr class="required" title="required">*</abbr></label> -->
 														<span class="input-wrapper"> 
 														<?php if($single_item->advance_setting->custom_class	==	"inputtype"){?>
-															<input data-rules="" data-id="<?php echo $single_item->field_key;?>" type="text" class="input-text custominput without_icon input-text ur-frontend-field " name="<?php echo $single_item->field_key;?>" id="<?php echo $single_item->field_key;?>" placeholder="<?php echo $single_item->general_setting->placeholder;?>" value="" required="required" data-label="<?php echo $single_item->field_key->general_setting->label;?>"> 
+															<input data-rules="" data-id="<?php echo $single_item->field_key;?>" type="text" class="form-control input-text custominput without_icon input-text ur-frontend-field " name="<?php echo $single_item->field_key;?>" id="<?php echo $single_item->field_key;?>" placeholder="<?php echo $single_item->general_setting->placeholder;?>" value="" required="required" data-label="<?php echo $single_item->field_key->general_setting->label;?>"> 
 														<?php }else if($single_item->advance_setting->custom_class	==	"passwordtype"){?>
-															<input data-rules="" data-id="<?php echo $single_item->field_key;?>" type="password" class="input-text custominput without_icon input-text ur-frontend-field " name="<?php echo $single_item->field_key;?>" id="<?php echo $single_item->field_key;?>" placeholder="<?php echo $single_item->general_setting->placeholder;?>" value="" required="required" data-label="<?php echo $single_item->field_key->general_setting->label;?>"> 
+															<input data-rules="" data-id="<?php echo $single_item->field_key;?>" type="password" class="form-control input-text custominput without_icon input-text ur-frontend-field " name="<?php echo $single_item->field_key;?>" id="<?php echo $single_item->field_key;?>" placeholder="<?php echo $single_item->general_setting->placeholder;?>" value="" required="required" data-label="<?php echo $single_item->field_key->general_setting->label;?>"> 
 														<?php }?>
 														</span> 
 													</div>
